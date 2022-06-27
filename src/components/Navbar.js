@@ -1,11 +1,11 @@
-import React from 'react'
-import { FaBars, FaCog, FaMicrophone } from 'react-icons/fa'
-import './Navbar.css'
+import React from 'react';
+import { FaBars, FaCog, FaMicrophone } from 'react-icons/fa';
+import './Navbar.css';
 
 export default class Navbar extends React.Component {
   constructor() {
     super();
-    this.state = {}
+    this.state = {};
   }
 
   render = () => (
