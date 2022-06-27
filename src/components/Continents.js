@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Bars } from 'react-loading-icons';
 import { getContinents } from '../redux/continents/continents';
 import ContinentWidget from './ContinentWidget';
+// import style from './Continents.module.css';
 
 const Continents = () => {
   const continents = useSelector((state) => state.continents);
@@ -27,7 +28,7 @@ const Continents = () => {
           <ContinentWidget
             key={continent.name}
             name={continent.name}
-            deaths={content.deaths}
+            deaths={continent.deaths}
           />
         ))}
       </div>
@@ -36,19 +37,12 @@ const Continents = () => {
     content = (
       <h2>
         Error:
-        {' '}
         {continents.errMsg}
       </h2>
     );
   }
 
-  return (
-    <>
-      {' '}
-      {content}
-      {' '}
-    </>
-  );
+  return <>{content}</>;
 };
 
 export default Continents;
