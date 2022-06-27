@@ -1,12 +1,13 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import routes from './routes'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import routes from './routes';
 
 const App = () => (
   <div className="App">
     <Routes>
       {routes.map((route) => (
-        <Route path={route.path}
+        <Route
+          path={route.path}
           key={route.key}
           element={route.element}
           exact={route.exact}
@@ -14,6 +15,6 @@ const App = () => (
       ))}
     </Routes>
   </div>
-)
+);
 
 export default App;
