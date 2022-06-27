@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# CovidTracker--SARS-CoV-2.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-## Available Scripts
+> This webapp provides Covid-19 Tracking information using the data it gets from an [API data source](https://corona.lmao.ninja) to provide comprehensive information about the novel coronavirus,
+>
+> It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<!-- ## Screenshot
+![FireShot Capture 007 - Multi Device Website Mockup Generator - techsini com](https://user-images.githubusercontent.com/88522494/175404364-2bf85cbe-29ee-4624-9b4a-fe8433a80533.png) -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live version
 
-### `npm test`
+<!-- For the live version of this project visit the followinglink. -->
+ <!-- [Netlify](https://covid-19-statstracky.netlify.app/) -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Get started
 
-### `npm run build`
+```bash
+   git clone https://github.com/SebastianSolisFenger/CovidTracker--SARS-CoV-2.git
+   cd into the folder by typing: cd CovidTracker--SARS-CoV-2
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:heavy_plus_sign: add your contribution if you'd like
+And please feel free to make a PR
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React-Create-App
+- React-DOM
+- Redux
+- npm
+- Javascript ES6
+- Nodejs
+- HTML && CSS
 
-### `npm run eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### :bust_in_silhouette: Fatima Zahir
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Fatimazahir](https://github.com/Fatima-hub333)
+- [LinkedIn](https://www.linkedin.com/in/fatimaa-zahir/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Microverse](https://www.microverse.org/)
+- External API from https://corona.lmao.ninja
+- Original design idea (Ballhead App (Free PSDs)) by Nelson Sakwa [Website](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+All contributions, issues and feature requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork it (https://github.com/Fatima-hub333/React-Capstone.git)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-### Code Splitting
+## Show your support:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a :star: if you liked the app
 
-### Analyzing the Bundle Size
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE.md) licensed.
