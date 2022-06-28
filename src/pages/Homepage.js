@@ -1,5 +1,5 @@
 import React from 'react';
-import Continents from '../components/Continents';
+import Continents from '../components/ContinentsComponents/Continents';
 import WorldDeathWidget from '../components/WorldDeathWidget';
 import style from './Homepage.module.css';
 
