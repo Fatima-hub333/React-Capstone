@@ -1,18 +1,14 @@
-import {
-  legacy_createStore as createStore,
-  combineReducers,
-  applyMiddleware,
-} from 'redux';
-import thunk from 'redux-thunk';
+import { configureStore, combineReducers, applyMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import continents from './continents/continents';
-import countries from './countries/countries';
+import thunk from 'redux-thunk';
+import { StatisticsReducer } from './stats';
 
 const rootReducer = combineReducers({
-  continents,
-  countries,
+  details: StatisticsReducer,
 });
 
-const store = createStore(rootReducer, applyMiddleware(logger, thunk));
+const store = configureStore({
+  reducer: rootReducer,
+}, applyMiddleware(logger, thunk));
 
 export default store;
