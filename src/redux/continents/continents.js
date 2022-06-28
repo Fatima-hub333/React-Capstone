@@ -3,8 +3,10 @@ import continentsInitialData from './initial-data';
 const URL = 'https://corona.lmao.ninja/v3/covid-19/continents';
 
 // Actions
-const GET_CONTINENTS_SUCCESS = 'CovidTracker--SARS-CoV-2/GET_CONTINENTS_SUCCESS';
-const GET_CONTINENTS_LOADING = 'CovidTracker--SARS-CoV-2/GET_CONTINENTS_LOADING';
+const GET_CONTINENTS_SUCCESS =
+  'CovidTracker--SARS-CoV-2/GET_CONTINENTS_SUCCESS';
+const GET_CONTINENTS_LOADING =
+  'CovidTracker--SARS-CoV-2/GET_CONTINENTS_LOADING';
 const GET_CONTINENTS_FAILED = 'CovidTracker--SARS-CoV-2/GET_CONTINENTS_FAILED';
 
 // Action creators
@@ -28,6 +30,7 @@ export const getContinents = () => (dispatch) => {
       const newContinents = data.map((conti) => ({
         name: conti.continent,
         deaths: conti.deaths,
+        countries: conti.countries,
       }));
       dispatch(continentsSuccess(newContinents));
     })

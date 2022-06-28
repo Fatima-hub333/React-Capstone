@@ -1,18 +1,23 @@
 import Homepage from './pages/Homepage';
 import ContinentPage from './pages/ContinentPage';
-import Nomatch from './pages/Nomatch';
+import CountryPage from './pages/CountryPage';
+import NoMatch from './pages/NoMatch';
 
 const routes = [
-  {
-    path: '/', title: 'Homepage', element: <Homepage />, exact: 'true',
-  },
+  { path: '/', title: 'Homepage', element: <Homepage />, exact: 'true' },
   {
     path: '/continent/:continent',
     title: 'Continent',
     element: <ContinentPage />,
     exact: 'true',
   },
-  { path: '*', title: '', element: <Nomatch /> },
+  {
+    path: '/country/:country',
+    title: 'Country',
+    element: <CountryPage />,
+    exact: 'true',
+  },
+  { path: '*', title: '', element: <NoMatch /> },
 ];
 
 export default routes;
