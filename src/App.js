@@ -1,20 +1,17 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import routes from './routes';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavBar from './components/navbar';
+import HomePage from './components/homepage';
+import Country from './components/detailspage';
 
 const App = () => (
-  <div className="App">
+  <Router>
+    <NavBar />
     <Routes>
-      {routes.map((route) => (
-        <Route
-          path={route.path}
-          key={route.key}
-          element={route.element}
-          exact={route.exact}
-        />
-      ))}
+      <Route exact path="/" element={<HomePage />} />
+      <Route path="/country/:name" element={<Country />} />
     </Routes>
-  </div>
+  </Router>
 );
 
 export default App;
