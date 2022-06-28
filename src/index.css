@@ -46,23 +46,23 @@ nav {
 }
 
 .firstnav {
-  background-color: green;
+  background-color: rgb(101, 101, 198);
   color: white;
   letter-spacing: 2px;
 }
 
 .continent-data,
 .continent {
-  background-color: rgba(19, 44, 22, 0.9);
+  background-color: rgb(101, 101, 198);
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   letter-spacing: 1px;
 }
 
 .secondnav {
-  background-color: seagreen;
-  color: rgb(59, 59, 59);
+  background-color: rgb(49, 49, 96);
+  color: white;
   letter-spacing: 2px;
 }
 
@@ -74,7 +74,7 @@ nav {
 .current h3,
 .sum h3 {
   padding: 20px;
-  background-color: lightgreen;
+  background-color: rgb(95, 120, 166);
 }
 
 .current li h4,
@@ -91,7 +91,7 @@ nav {
 .dataList a,
 .sum,
 .current {
-  background-color: rgba(5, 128, 60, 0.8);
+  background-color: rgb(160, 160, 215);
 }
 
 .dataList a {
@@ -111,7 +111,7 @@ nav {
 .dataList a:nth-child(4n),
 .dataList a:nth-child(4n + 1),
 .dataContainer div ul li:nth-child(even) {
-  background-color: rgba(70, 168, 75, 0.9);
+  background-color: rgb(160, 160, 215);
 }
 
 .dataList a:hover,
@@ -119,7 +119,7 @@ nav {
 .dataList a:nth-child(4n + 1):hover,
 .formSearch {
   padding: 25px;
-  background-color: rgba(92, 110, 25, 0.7);
+  background-color: rgb(101, 101, 198);
   color: white;
 }
 
@@ -150,7 +150,9 @@ nav {
 }
 
 .countryName {
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .population {
