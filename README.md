@@ -7,11 +7,13 @@
 > It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
 ---
+## Video Presentation
+(https://www.loom.com/share/8f32d2752b184da9ae05a6810dd2fd40)
 
 ## Live version
 
 For the live version of this project visit the followinglink.
- [Netlify](https://covid-19-statstracky.netlify.app/)
+ [Netlify](https://verdant-griffin-3590dd.netlify.app)
 
 ## Get started
 
@@ -63,3 +65,4 @@ Give a :star: if you liked the app
 # License
 
 This project is [MIT](LICENSE.md) licensed.
+ 
