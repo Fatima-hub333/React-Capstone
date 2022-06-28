@@ -8,14 +8,10 @@
 
 ---
 
-<!-- ## Screenshot
-![FireShot Capture 007 - Multi Device Website Mockup Generator - techsini com](https://user-images.githubusercontent.com/88522494/175404364-2bf85cbe-29ee-4624-9b4a-fe8433a80533.png) -->
-
-
 ## Live version
 
-<!-- For the live version of this project visit the followinglink. -->
- <!-- [Netlify](https://covid-19-statstracky.netlify.app/) -->
+For the live version of this project visit the followinglink.
+ [Netlify](https://covid-19-statstracky.netlify.app/)
 
 ## Get started
 
