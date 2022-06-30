@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -21,25 +22,10 @@ const HomePage = () => {
   const query = new URLSearchParams(location.search);
   const search = query.get('search') || '';
   Africa = Africa.filter((country) => country.country.includes(search.toLowerCase()));
-  const navigate = useNavigate();
-  const [searchValue, setSearchValue] = useState(search);
-
-  const countryFilterOnChange = (event) => {
-    navigate(event.target.value ? `?search=${event.target.value}` : '');
-    setSearchValue(event.target.value);
-  };
 
   return (
     <div className="homePage">
       <h1 className="continent">Africa</h1>
-      <form className="formSearch">
-        <div>
-          <FaSearchLocation />
-        </div>
-        <div>
-          <input className="searchInput" type="text" value={searchValue} placeholder="Search for country..." onChange={countryFilterOnChange} />
-        </div>
-      </form>
       <ul className="dataList">
         {
       Africa.map((country) => (
